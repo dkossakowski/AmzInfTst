@@ -87,6 +87,7 @@ namespace AmzInfTst
         {
             RepoItemInfo _clientInfo;
             RepoItemInfo _zurueckInfo;
+            RepoItemInfo _client1Info;
 
             /// <summary>
             /// Creates a new AmazonDeGuenstigePreiseFuerElektro  folder.
@@ -96,6 +97,7 @@ namespace AmzInfTst
             {
                 _clientInfo = new RepoItemInfo(this, "Client", "container[@accessiblename~'^Amazon\\.de:\\ Günstige\\ Preis']/container/container[1]", 30000, null, "46610d5c-8420-4cfb-a005-3955a81cab2a");
                 _zurueckInfo = new RepoItemInfo(this, "Zurueck", "container[@accessiblename~'^Amazon\\ Anmelden\\ -\\ Google\\ ']/container[@accessiblename='Google Chrome']//button[@accessiblename='Zurück']", 30000, null, "5e0d4251-1208-4838-819e-4eab62e7f8dc");
+                _client1Info = new RepoItemInfo(this, "Client1", "container[@accessiblename~'^Amazon\\ Anmelden\\ -\\ Google\\ ']/container/container[1]", 30000, null, "258a0435-0ee4-4297-b01d-6c0e7ed8a058");
             }
 
             /// <summary>
@@ -167,6 +169,30 @@ namespace AmzInfTst
                 get
                 {
                     return _zurueckInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Client1 item.
+            /// </summary>
+            [RepositoryItem("258a0435-0ee4-4297-b01d-6c0e7ed8a058")]
+            public virtual Ranorex.Container Client1
+            {
+                get
+                {
+                    return _client1Info.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Client1 item info.
+            /// </summary>
+            [RepositoryItemInfo("258a0435-0ee4-4297-b01d-6c0e7ed8a058")]
+            public virtual RepoItemInfo Client1Info
+            {
+                get
+                {
+                    return _client1Info;
                 }
             }
         }

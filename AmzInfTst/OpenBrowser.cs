@@ -109,6 +109,26 @@ namespace AmzInfTst
             Host.Current.OpenBrowser(basis_url, browser, "", false, true, false, true, false);
             Delay.Milliseconds(11940);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AmazonDeGuenstigePreiseFuerElektro.Client' at 1617;218.", repo.AmazonDeGuenstigePreiseFuerElektro.ClientInfo, new RecordItemIndex(1));
+            repo.AmazonDeGuenstigePreiseFuerElektro.Client.Click("1617;218");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'detlef'.", new RecordItemIndex(2));
+            Keyboard.Press("detlef");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '.kossakowski{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}gmx.net'.", new RecordItemIndex(3));
+            Keyboard.Press(".kossakowski{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}gmx.net");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AmazonDeGuenstigePreiseFuerElektro.Client1' at 1090;312.", repo.AmazonDeGuenstigePreiseFuerElektro.Client1Info, new RecordItemIndex(4));
+            repo.AmazonDeGuenstigePreiseFuerElektro.Client1.Click("1090;312");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1Q2w3e4r{Return}'.", new RecordItemIndex(5));
+            Keyboard.Press("1Q2w3e4r{Return}");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

@@ -42,6 +42,16 @@ rxversion="8.0">
 			searchtimeout="30000ms">
 				/form[@title~'^Amazon\.de:\ G&#252;nstige\ Preis']/container[@accessiblename~'^Amazon\ Anmelden\ -\ Google\ ']/container[@accessiblename='Google Chrome']//button[@accessiblename='Zur&#252;ck']
 			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="258a0435-0ee4-4297-b01d-6c0e7ed8a058"
+			name="Client1"
+			refimgid="f07475e3-35ed-459a-bef7-30b1f83a8b40"
+			refpath="/form[@title~'^Amazon\ Anmelden\ -\ Google\ ']/container/container/container[1]"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\.de:\ G&#252;nstige\ Preis']/container[@accessiblename~'^Amazon\ Anmelden\ -\ Google\ ']/container/container[1]
+			</item>
 			<basepath>
 				/form[@title~'^Amazon\.de:\ G&#252;nstige\ Preis']
 			</basepath>

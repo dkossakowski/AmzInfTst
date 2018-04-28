@@ -2,12 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # Ranorex Studio 8.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmzInfTst", "AmzInfTst\AmzInfTst.csproj", "{5A7F6AE9-E130-4C3F-942C-51CEEC1CD256}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{561B5624-28C5-414C-9997-94CBD7D09689}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmzInfTst", "AmzInfTst\AmzInfTst.csproj", "{5A7F6AE9-E130-4C3F-942C-51CEEC1CD256}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
