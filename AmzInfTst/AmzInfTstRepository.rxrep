@@ -1,0 +1,70 @@
+﻿<repository
+id="f6f3fb2f-3912-489e-827d-af67cfa2c8e9"
+name="AmzInfTstRepository"
+rxversion="8.0">
+	<codegen
+	classname="AmzInfTstRepository"
+	namespace="AmzInfTst">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c9ef1f1b-058d-4b24-90f1-1f58a977e74f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a50d62e1-3980-458c-9835-5f74e1b975b0"
+		isrooted="True"
+		name="AmazonDeGuenstigePreiseFuerElektro"
+		refpath="/form[@title='Amazon.de: Günstige Preise für Elektronik &amp; Foto, Filme, Musik, Bücher, Games, Spielzeug &amp; mehr - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="46610d5c-8420-4cfb-a005-3955a81cab2a"
+			name="Client"
+			refimgid="557eee86-2791-4863-8732-5790ecb8ec88"
+			refpath="/form[@title~'^Amazon\.de:\ Günstige\ Preis']/container/container/container[1]"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\.de:\ G&#252;nstige\ Preis']/container[@accessiblename~'^Amazon\.de:\ G&#252;nstige\ Preis']/container/container[1]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5e0d4251-1208-4838-819e-4eab62e7f8dc"
+			name="Zurueck"
+			refimgid="b358176e-879a-4b74-b4dc-6d56c50b06c9"
+			refpath="/form[@title~'^Amazon\ Anmelden\ -\ Google\ ']/container/container/container[2]/container[2]/container/button[@accessiblename='Zurück']"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\.de:\ G&#252;nstige\ Preis']/container[@accessiblename~'^Amazon\ Anmelden\ -\ Google\ ']/container[@accessiblename='Google Chrome']//button[@accessiblename='Zur&#252;ck']
+			</item>
+			<basepath>
+				/form[@title~'^Amazon\.de:\ G&#252;nstige\ Preis']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

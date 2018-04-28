@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{5A7F6AE9-E130-4C3F-942C-51CEEC1CD256}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>9314ee24-4cc5-4c04-a583-84fad5d6b187</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution AmzInfTst[Solution Items[]AmzInfTst[Reports[]AmzInfTst.rxtst[]AmzInfTstRepository.rxrep[]OpenBrowser.rxrec[]]]]&#xD;&#xA;Solution AmzInfTst\AmzInfTst\AmzInfTst.rxtst&#xD;&#xA;Solution AmzInfTst" />
+  <StartupProject value="{5A7F6AE9-E130-4C3F-942C-51CEEC1CD256}" />
+</Properties>

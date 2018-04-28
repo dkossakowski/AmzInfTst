@@ -1,0 +1,10 @@
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\bin\Debug\AmzInfTst.rxtmg
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\bin\Debug\AmzInfTst.rxtst
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\bin\Debug\AmzInfTst.exe.config
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\bin\Debug\AmzInfTst.exe
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\bin\Debug\AmzInfTst.pdb
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\obj\x86\Debug\AmzInfTst.csprojResolveAssemblyReference.cache
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\obj\x86\Debug\AmzInfTst.exe
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\obj\x86\Debug\AmzInfTst.pdb
+C:\Users\Detlef\Documents\Ranorex\RanorexStudio Projects\AmzInfTst\AmzInfTst\bin\Debug\Kopie von WebSrv.xlsx

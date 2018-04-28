@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="AmzInfTst"
+      id="a95daa09-7193-41c2-ab2f-8cb929a25c4c"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="AmzInfTst"
+      id="a95daa09-7193-41c2-ab2f-8cb929a25c4c"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
